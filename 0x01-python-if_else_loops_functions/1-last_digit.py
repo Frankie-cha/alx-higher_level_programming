@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10000, 1000)
-	last_digit = abs(number) % 10
+number = random.randint(-10000, 10000)
+last_digit = abs(number) % 10
 
 print(f'The string Last digit of\nthe number {number}\nis {last_digit}', end=' ')
 
