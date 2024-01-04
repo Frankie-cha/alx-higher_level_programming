@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-import importlib
+if __name__ == "__main__":
+    """Print the value of variable a from variable_load_5."""
+    from variable_load_5 import a
 
-module_name = 'variable_load_5'
-module = importlib.import_module(module_name)
-
-print(module.a)
+    print(a)
