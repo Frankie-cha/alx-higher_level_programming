@@ -11,3 +11,5 @@ try:
     my_square.size = "5 feet"
     print("Area: {} for size: {}".format(my_square.area(), my_square.size))
 except Exception as e:
+    
+    print(e)
